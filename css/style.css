@@ -37,7 +37,11 @@ img {
 }
 
 a {
- color: #ddd;
+ color: #bbb;
+}
+
+a:hover {
+ color: #fff;
 }
 
 /* Borrowed from: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/ */
