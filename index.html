@@ -11,7 +11,9 @@
                         .then((res) => res.text())
                         .then((text) => {
                                 var lines = text.split('\n');
-                                var line = lines[Math.floor(Math.random()*lines.length)]
+                                var num = Math.floor(Math.random()*lines.length);
+                                console.log("Random number: ", num);
+                                var line = lines[num];
                                 document.getElementById('item').textContent = line;
                         })
                         .catch((e) => {
