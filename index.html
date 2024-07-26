@@ -1,10 +1,27 @@
 <!DOCTYPE HTML>
-<html lang=”en”>
+<html lang='en'>
   <head>
-    <meta charset=”UTF-8″>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
-    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='css/style.css'>
+    <script>
+        function updateItem() {
+                fetch('items.txt')
+                        .then((res) => res.text())
+                        .then((text) => {
+                                var lines = text.split('\n');
+                                var line = lines[Math.floor(Math.random()*lines.length)]
+                                document.getElementById('item').textContent = line;
+                        })
+                        .catch((e) => {
+                                document.getElementById('item').textContent = "Figure it out!";
+                                console.error(e);
+                        }
+                        );
+        };
+        document.addEventListener('DOMContentLoaded', updateItem());
+    </script>
     <title>Oblique Troubleshooting</title>
   </head>
   <body>
@@ -20,11 +37,11 @@
           Move forward!
         </div>
       <blockquote class='rectangle-speech-border'>
-        <p>
-          Figure it out!
+        <p id='item'>
+        <br>
         </p>
       </blockquote>
-      <img src='images/frog-dark.png' alt='Obli the Frog (image by julos)'>
+      <a href=""><img id='frog' src='images/frog-dark.png' alt='Obli the Frog (image by julos)'></a>
       <div class='instructions'>If you are still stuck, reload this page.</div>
     </main>
   </body>
