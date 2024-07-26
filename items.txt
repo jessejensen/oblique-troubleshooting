@@ -1,27 +1,27 @@
-Question your assumptions!
-If only there were a log file...
-Have you ever seen this before?
-Why is this important?
-Is there a better metaphor?
-Think backward...
-Is it a bug?
-When does it happen?
-Who saw it first?
-Does it replicate? Really?
 Are you looking at the right level?
-What if? Why not?
-State the problem in words as clearly as possible.
-What would your hero do?
-Pretend that it's fixed now. How did you do it?
-Is there something missing?
+Ask advice from your opposite.
 Discover your formulas and abandon them.
-Retrace your steps.
+Do something else for a while.
+Does it replicate? Really?
+Escalate?
+Have you ever seen this before?
+If only there were a log file...
+Is it a bug?
+Is there a better metaphor?
+Is there something missing?
 Make an exhaustive list of everything you might do and do the last thing on the list.
-Tidy up.
+Pretend that it's fixed now. How did you do it?
+Question your assumptions!
 Reboot!
+Retrace your steps.
+State the problem in words as clearly as possible.
+The map is not the territory.
+Think backward...
+Tidy up.
+What if? Why not?
 What mistakes did you make last time?
 What would you never do?
-Do something else for a while.
-Ask advice from your opposite.
-Escalate?
-The map is not the territory.
+What would your hero do?
+When does it happen?
+Who saw it first?
+Why is this important?
