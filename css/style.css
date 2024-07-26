@@ -36,6 +36,10 @@ img {
  padding: 0;
 }
 
+a {
+ color: #ddd;
+}
+
 /* Borrowed from: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/ */
 .rectangle-speech-border {
 	position:relative; 
