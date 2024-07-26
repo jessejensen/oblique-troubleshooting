@@ -1,2 +1,4 @@
-# oblique-troubleshooting
-Oblique Troubleshooting: Suggestions for troubleshooting technical problems in the style of Oblique Strategies
+# Oblique Troubleshooting
+Suggestions for troubleshooting technical problems in the style of [Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies)
+
+[See it in action!](https://jessejensen.github.io/oblique-troubleshooting/)
