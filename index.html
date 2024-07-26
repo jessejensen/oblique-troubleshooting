@@ -5,13 +5,14 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='css/style.css'>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script>
         function updateItem() {
                 fetch('items.txt')
                         .then((res) => res.text())
                         .then((text) => {
                                 var lines = text.split('\n');
-                                var num = Math.floor(Math.random()*lines.length);
+                                var num = Math.floor(Math.random()*(lines.length -1));
                                 console.log("Random number: ", num);
                                 var line = lines[num];
                                 document.getElementById('item').textContent = line;
