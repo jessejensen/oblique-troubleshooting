@@ -11,11 +11,11 @@
                 fetch('items.txt')
                         .then((res) => res.text())
                         .then((text) => {
-                                var lines = text.split('\n');
-                                var num = Math.floor(Math.random()*(lines.length -1));
-                                console.log("Random number: ", num);
-                                var line = lines[num];
-                                document.getElementById('item').textContent = line;
+                                var lines = text.split('\n').filter((line) => line.length > 0);
+                                var num = Math.floor(Math.random()*(lines.length));
+                                console.log("Random line number: ", num);
+                                var randomLine = lines[num];
+                                document.getElementById('item').textContent = randomLine;
                         })
                         .catch((e) => {
                                 document.getElementById('item').textContent = "Figure it out!";
