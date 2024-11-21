@@ -3,4 +3,4 @@ Suggestions for troubleshooting technical problems in the style of [Oblique Stra
 
 [See it in action!](https://jessejensen.github.io/oblique-troubleshooting/)
 
-Suggest new items with a Pull Request!
+Suggest new items with a Pull Request on [items.txt](items.txt)!
