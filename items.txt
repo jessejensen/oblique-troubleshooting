@@ -2,15 +2,16 @@ Are you looking at the right level?
 Ask advice from your opposite.
 Did this happen before?
 Discover your formulas and abandon them.
-Draw a picture.
 Do something else for a while.
 Does it replicate? Really?
+Draw a picture.
 Escalate?
 Have you ever seen this before?
 If only there were a log file...
 Is it a bug?
 Is there a better metaphor?
 Is there something missing?
+It wants to work!
 Make an exhaustive list of everything you might do and do the last thing on the list.
 Pretend that it's fixed now. How did you do it?
 Question your assumptions!
